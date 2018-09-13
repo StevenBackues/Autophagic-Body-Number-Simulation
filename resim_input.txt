@@ -6,8 +6,8 @@ bmu                     (mean of normal distribution of body number): 30
 bsigma    (standard deviation of normal distribution of body number): 4
 reclim                 (minimum observable body cross-section radius): 45
 vacmin              (minimum observable vacuole cross-section radius): 300
-cells                                         (simulated sample size): 1000
+cells                                         (simulated sample size): 400
 repeats                                    (number of iterating runs): 7
 iterate                                    (variable to iterate over): bm
-clustering                             (0: none, 1:glpk, 2: type two): 1
-cores	    	  (number of CPU cores on which to run the simulation): 3
+clustering                             (0: none, 1:glpk, 2: type two): 0
+cores	    	  (number of CPU cores on which to run the simulation): 1

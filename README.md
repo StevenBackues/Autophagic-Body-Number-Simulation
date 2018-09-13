@@ -16,7 +16,7 @@ How to use:
 3) Download the files in the "simulation" folder to your working R directory
 4) Replace the data in the "experimental data" excel file with your own experimental data.  This is used for comparing the results of the simulation
 5) Load the simulation into R, and run it using the command resim()
-6) Choose whether to use the function defaults, values from resim.txt, or input function values manually.  Most of the function values should be derived from the initial estimates you made using the numerical methods found in the Excel sheets.  The number of simulated bodies (mean and standard deviation) are the variables to alter to try to find the best fit.  
+6) Choose whether to use the function defaults, values from resim_input.txt, or input function values manually.  You should derive most of the function values from the initial estimates you made using the numerical methods found in the Excel sheets.  The number of simulated bodies (mean and standard deviation) are the variables to alter to try to find the best fit.  
 
 The output of the simulation includes graphs of the mean number of simulated body cross-sections per vacuole section, the KS test (Kolmogorov–Smirnov test) results for each simulation vs your experimental data, and split-violin plots of the distribution of cross-sections per vacuole section for the simulations with the lowest KS scores.  
 

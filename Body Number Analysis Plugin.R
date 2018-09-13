@@ -28,7 +28,7 @@ geom_split_violin <- function (mapping = NULL, data = NULL, stat = "ydensity", p
   layer(data = data, mapping = mapping, stat = stat, geom = GeomSplitViolin, position = position, show.legend = show.legend, inherit.aes = inherit.aes, params = list(trim = trim, scale = scale, draw_quantiles = draw_quantiles, na.rm = na.rm, ...))
 }
 # ************************************************************************************************************
-raw_exp_data <- read_csv("experimental data.csv") %>% drop_na()
+raw_exp_data <- read_csv("Experimental data.csv") %>% drop_na()
 char_time <- as.character(Sys.time())
 # ************************************************************************************************************
 

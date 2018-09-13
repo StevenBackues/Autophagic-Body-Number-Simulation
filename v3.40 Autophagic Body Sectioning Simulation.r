@@ -7,8 +7,8 @@
 # outputs the input data as well as the observed radii of the body crossections and the number of crossections per vacuole 
 # repeats all of this for the input number of times (repeats), varying mean body number, and outputs all of the results to a text file "mean size and number.txt"
 resim = function (mu = 5.07, sigma = 0.339, vmu = 6.95, vsigma = 0.25, bm = 30, 
-                  bsd = 4, reclim = 45, vacmin = 300, cells = 200, repeats = 4,
-                  iter_parameter = "bm", clustering = 2, cores = 3) {
+                  bsd = 4, reclim = 45, vacmin = 300, cells = 200, repeats = 3,
+                  iter_parameter = "bm", clustering = 0, cores = 1) {
   
   require(MultiRNG)
   require(tidyverse)

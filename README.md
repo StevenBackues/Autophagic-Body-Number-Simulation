@@ -14,7 +14,7 @@ How to use:
 1) Measure autophagic body cross-sections - detailed instructions in the Backues 2014 protocol paper (https://doi.org/10.4161/auto.26856)
 2) Use the two Excel sheets to get an initial estimate of body size and number from these measurements - detailed instructions also the Backues 2014 protocol paper (https://doi.org/10.4161/auto.26856)
 3) Download the files in the "simulation" folder to your working R directory
-4) Replace the data in the "experimental data" excel file with your own experimental data.  This is used for comparing the results of the simulation
+4) Replace the data in the "experimental data" excel file with your own experimental data (number of observed body sections in each vacuole section).  This is used for comparing the results of the simulation
 5) Load the simulation into R, and run it using the command resim()
 6) Choose whether to use the function defaults, values from resim_input.txt, or input function values manually.  You should derive most of the function values from the initial estimates you made using the numerical methods found in the Excel sheets.  The number of simulated bodies (mean and standard deviation) are the variables to alter to try to find the best fit.  
 

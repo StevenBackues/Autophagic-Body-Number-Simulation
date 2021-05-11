@@ -10,6 +10,8 @@ Excel numerical methods and second published version of the simulation, for both
 
 Third published version, improved for number: Cawthon H, Chakraborty R, Roberts JR, Backues SK. Control of autophagosome size and number by Atg7. Biochem Biophys Res Commun. 2018 Sep 5;503(2):651-656. https://doi.org/10.1016/j.bbrc.2018.06.056
 
+The current version includes extra code that simplifies the workflow written by Pat Wall, a former undergraduate in my lab and now a PhD student at IU Bloomington.  
+
 How to use:
 1) Measure autophagic body cross-sections - detailed instructions in the Backues 2014 protocol paper (https://doi.org/10.4161/auto.26856)
 2) Use the two Excel sheets to get an initial estimate of body size and number from these measurements - detailed instructions also the Backues 2014 protocol paper (https://doi.org/10.4161/auto.26856)
